@@ -1,4 +1,4 @@
-## image-processor
+# image-processor
 C++ project oriented on interaction with images
 # Graphic filters (image_processor)
 A console application that allows to apply various filters to images, similar to filters in popular graphic editors.
@@ -11,8 +11,7 @@ The input and output image files must be in [BMP](http://en.wikipedia.org/wiki/B
 The BMP format supports quite a lot of variations, but in this task will be used
 24-bit BMP without compression and without a color table. Type of used `DIB header` - `BITMAPINFOHEADER`.
 
-An example of a file in the desired format is available in the Wikipedia article [in the "Example 1" section](https://en.wikipedia.org/wiki/BMP_file_format#Example_1)
-and in the folder [examples](examples).
+An example of a file in the desired format is available in the Wikipedia article [in the "Example 1" section](https://en.wikipedia.org/wiki/BMP_file_format#Example_1).
 
 When testing, be sure to pay attention to the fact that the test image was saved in a 24-bit BMP.
 
